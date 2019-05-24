@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Dojo4.dir/main.cpp.o CMakeFiles/Dojo4.dir/ShipsTest.cpp.o CMakeFiles/Dojo4.dir/field.cpp.o CMakeFiles/Dojo4.dir/board.cpp.o CMakeFiles/Dojo4.dir/Game.cpp.o CMakeFiles/Dojo4.dir/Player.cpp.o CMakeFiles/Dojo4.dir/input.cpp.o CMakeFiles/Dojo4.dir/InputMock.cpp.o CMakeFiles/Dojo4.dir/features.cpp.o  -o Dojo4 -lgtest -lgmock -lpthread 

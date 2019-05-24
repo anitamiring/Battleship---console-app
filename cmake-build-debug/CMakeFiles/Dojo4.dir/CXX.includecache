@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/a27stude/Documents/Clionprojects/Dojo4/Game.cpp
+Game.h
+/home/a27stude/Documents/Clionprojects/Dojo4/Game.h
+
+/home/a27stude/Documents/Clionprojects/Dojo4/Game.h
+board.h
+/home/a27stude/Documents/Clionprojects/Dojo4/board.h
+Player.h
+/home/a27stude/Documents/Clionprojects/Dojo4/Player.h
+
+/home/a27stude/Documents/Clionprojects/Dojo4/Player.h
+board.h
+/home/a27stude/Documents/Clionprojects/Dojo4/board.h
+string
+-
+input.h
+/home/a27stude/Documents/Clionprojects/Dojo4/input.h
+
+/home/a27stude/Documents/Clionprojects/Dojo4/board.h
+vector
+-
+field.h
+/home/a27stude/Documents/Clionprojects/Dojo4/field.h
+
+/home/a27stude/Documents/Clionprojects/Dojo4/field.h
+
+/home/a27stude/Documents/Clionprojects/Dojo4/input.h
+iostream
+-
+utility
+-
+ctime
+-
+

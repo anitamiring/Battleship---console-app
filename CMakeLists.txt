@@ -1,0 +1,10 @@
+
+cmake_minimum_required(VERSION 3.13)
+project(Dojo4)
+include_directories(/usr/src/gtest/include)
+include_directories(/usr/local/include/gmock/include)
+set(CMAKE_CXX_STANDARD 14)
+find_package(Threads REQUIRED)
+add_executable(Dojo4 main.cpp ShipsTest.cpp field.cpp field.h board.cpp board.h Game.cpp Game.h Player.cpp Player.h input.cpp input.h InputMock.cpp InputMock.h features.cpp features.h)
+target_link_libraries(Dojo4 gtest gmock)
+target_link_libraries(Dojo4 Threads::Threads)
